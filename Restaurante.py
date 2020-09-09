@@ -33,7 +33,7 @@ class JanelaDeLogin():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
