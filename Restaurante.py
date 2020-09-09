@@ -33,7 +33,7 @@ class JanelaDeLogin():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
@@ -100,7 +100,7 @@ class Cadastro():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
@@ -233,7 +233,7 @@ class Pedidos():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
@@ -333,7 +333,7 @@ class CadastraProdutos():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
@@ -392,7 +392,7 @@ class Funcionarios():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
@@ -486,7 +486,7 @@ class JanelaCliente():
                 host='localhost',
                 user='root',
                 password='',
-                db='erp',
+                db='restaurante',
                 charset='utf8mb4',
                 cursorclass=pymysql.cursors.DictCursor
             )
