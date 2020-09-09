@@ -3,7 +3,7 @@ Programa Usados --- MySQL Workbench 8.0 CE ------ Wampserver64--------- Pycharm
 Script do MySQL:
 OBS: Alguns Dados já foram inseridos para facilitar o uso.
 
-create database erp;
+create database restaurante;
  
 create table cadastros(
 
