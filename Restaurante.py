@@ -523,6 +523,7 @@ class JanelaCliente():
                     try:
                         with conexao.cursor() as cursor:
                             cursor.execute('insert into pedidos (nome, ingredientes, grupo, localEntrega, observacoes) values(%s,%s,%s,%s,%s)',(i['nome'], i['ingredientes'], i['grupo'], self.endereco.get(), self.observacao.get()))
+                            cursor.execute('insert into estatisticavendido (nome, grupo, preco) values(%s,%s,%s)',(i['nome'], i['grupo'], i['preco']))
                             conexao.commit()
                             messagebox.showinfo('Sucesso', 'Produto Comprado com Sucesso!')
                             self.atualiza()
